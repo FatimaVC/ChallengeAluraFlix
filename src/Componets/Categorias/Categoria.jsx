@@ -14,7 +14,7 @@ const Div = styled.div`
  `;
 
 const Categoria = (props) => {
-
+//pasamos props
     const { titulo, colorPrimario, descripcion } = props.datos;
     const { videos, eliminarVideo } = props;
 
